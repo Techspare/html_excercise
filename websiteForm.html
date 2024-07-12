@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, article, aside, footer {
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid #ddd;
+    }
+    header {
+      background-color: #f4f4f4;
+    }
+    main {
+      display: flex;
+    }
+    article {
+      flex: 3;
+    }
+    aside {
+      flex: 1;
+      background-color: #f4f4f4;
+    }
+    footer {
+      background-color: #e4e4e4;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+<header>
+  <h1>welcome to My website</h1>
+  <p>Learn more about HTML5 semantic elements.</p>
+<header>
+  
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+
+<main>
+  <article>
+    <h2>Article Title</h2>
+    <p>This is an example of an article section. Articles are intended to be independant, self-contained pieces of content</p>
+  </article>
+  <aside>
+    <h3>Related Links</h3>
+    <ul>
+      <li><a href="#">Related Article 1</a></li>
+      <li><a href="#">Related Article 2</a></li>
+      <li><a href="#">Related Article 3</a></li>
+    </ul>
+  </aside>
+<section>
+  <form action="/submit_form" method="post">
+    <div>
+      <label for="firstname">Firstname:</label>
+      <input type="text" id="firstname" required>
+    </div>
+    <div>
+      <label for="lasttname">Lastname:</label>
+      <input type="text" id="lastname" required>
+    </div>
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+    </div>
+    <div>
+      <label for="phonenumber">Phone number:</label>
+      <input type="number" id="phonenumber" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="text and number" id="password" name="password" required>
+    </div>
+    <div>
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image" required>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+</section>  
+</main>
+
+<footer>
+  <p>&copy; 2024 My website. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>     
